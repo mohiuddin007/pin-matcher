@@ -43,8 +43,8 @@
                                 <div class="button" onclick="clearBtn()">C</div>
                             </div>
                             <div>
-                                <button type="submit" class="submit-btn" onclick="submitBtn()">Submit</button>
-                                <p class="action-left">3 try left</p>
+                                <button type="submit" class="submit-btn" id="submit" onclick="submitBtn()">Submit</button>
+                                <p class="action-left"> <span id="threeTry">3</span> try left</p>
                             </div>
                     </div>
                 </div>
@@ -53,6 +53,7 @@
         <div class="notify-section">
             <p class="notify" id="noMatch">❌ Pin Didn't Match, Please try again</p>
             <p class="notify" id="match">✅ Pin Matched... Secret door is opening for you</p>
+            <p class="notify" id="tryAgain">Please Generate new pin</p>
         </div>
     </div>
     
