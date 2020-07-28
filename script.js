@@ -12,7 +12,7 @@ function numberBtn(num){
 }
 
 function clearBtn(){
-         document.getElementById('display').value = " ";
+         document.getElementById('display').value = "";
 }
 
 function clearBackBtn(){
